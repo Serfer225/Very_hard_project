@@ -1,0 +1,1454 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+
+body{
+    background: url(https://oir.mobi/uploads/posts/2021-03/1616569348_3-p-obichnii-fon-3.jpg) no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+}
+*{
+    margin: 0 auto;
+}
+.container{
+    height: 100%;
+    width: 1440px;
+}
+.header{
+    height: 910px;
+    width: 1440px;
+}
+.header_contact{
+    height: 100px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+}
+.header_saidbar{
+    display: flex;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+.box_saidbar{
+    display: flex;
+}
+.header_content{
+    width: 1440px;
+    height: 490px;
+    background:url(./img/maxresdefault\ \(1\)\ 216165\ \(1\).png) no-repeat;
+    background-size: cover;
+
+}
+.header_ten{ 
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%);
+     height: 100%;
+     width: 100%;
+}
+.header_footer{
+    width: 1440px;
+    height: 250px;
+    margin-top: 10px;
+}
+.hf_container{
+    display: flex;
+}
+
+
+
+
+   
+
+                                                                                    /* {BOX_CONTACT} */
+.box_contact_img{
+    width: 260px;
+    height: 72px;
+    border-right:1px solid black;
+    text-align: center;
+    margin-top: 20px;
+}
+.box_contact_lag{
+    width: 65px;
+    height: 72px;
+    border-right:1px solid black;
+    text-align: center;
+    padding-left: 20px ;
+    padding-right: 20px;
+    margin-right: 700px;
+    margin-top: 10px;
+    margin-left: -30px;
+    font-size: 20px;
+}
+.box_contact_icon{
+    border-right:1px solid black;
+    text-align: center;
+    display: flex;
+}
+.box_contact_cyrs{
+    margin-left: -700px;
+    width: 124px;
+    height: 72px;
+    border-right:1px solid black;
+    margin-top: 0px;
+    /* background-color: blanchedalmond; */
+}
+.box_contact_icon{
+    width: 130px;
+    height: 72px;
+    margin-top: 20px;
+    /* background-color: brown; */
+    margin-left: -30px;
+}
+.box_contact_tel{
+    width: 185px;
+    height: 72px;
+    display: flex;
+    /* background-color: burlywood; */
+    margin-left: -30px;
+    margin-top: 20px;
+    border-right: 1px solid black;
+}
+.box_contact_poisk{
+    display: flex;
+    /* background-color: cadetblue; */
+    height: 72px;
+    margin-top: 10px;
+}
+
+
+
+
+                                            /* {IN BOX_CONTACT} */
+.box_text1{
+    width: 30px;
+    height: 19px;   
+    margin-top: 10px;
+    background-color: #4AD295;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+.box_text2{
+    width: 30px;
+    height: 19px;   
+    margin-top: 1px;
+}
+
+.box_text{
+    margin-top: 10px;
+    font-size: 15px;
+    /* background-color: blanchedalmond; */
+    width: 75px;
+
+}
+.box_text h1{
+    text-align: center;
+}
+.box_icon{
+    font-size: 30px;
+    margin-top: 20px;
+    color: black;
+    /* background-color: blueviolet; */
+}
+.box_icon i{
+    color: black;
+}
+.box_icon_tel{
+    font-size: 35px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 15px;
+    
+}
+.box_icon_tel i{
+    color: black;
+}
+.box_telefon{
+    margin-top: 10px;
+}
+.box_poisk{
+    display: flex;
+    margin-right: 10px;
+    /* background-color:crimson ; */
+}
+.box_line{
+    width: 150px;
+    height: 55px;
+    background-color: #EFF3F6;
+    margin-top:10px ;
+    text-align: center;
+}
+.box_line p{
+    font-size: 15px;
+    margin-top: 16px;
+}
+.box_icon_poisk_1{
+    font-size: 20px;
+    width: 55px;
+    height: 55px;
+    background-color: #4AD295;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.box_icon_poisk_2{
+    font-size: 20px;
+    width: 55px;
+    height: 55px;
+    background-color: #DD4053;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.box_icon_poisk_1 i{
+    margin-top: 20px;
+}
+.box_icon_poisk_2 i{
+    margin-top: 20px;
+}
+.box_saidbar{
+    height: 40px;
+}
+.box_bar_text{
+    margin-right: 2px;
+    height: 37px;
+}
+.box_bar_text_hotel{
+    margin-right: 2px;
+    /* background-color: #DD4053; */
+    height: 37px;
+
+}
+.box_bar_text_hotel:hover{
+    border-bottom: 3px #DD4053 solid;
+}
+.box_bar_text:hover{
+    border-bottom: 3px #DD4053 solid;
+} 
+.box_bar_icon{
+    margin-top: 2px;
+    color:#C4C4C4;
+}
+.tochki{
+    width: 75px;
+    height: 7px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px
+}
+.t_tochki{
+    width: 7px;
+    height: 7px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(184, 176, 176, 0.5);
+    font-size: 20px;
+}
+.t_tochki_1{
+    width: 7px;
+    height: 7px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.993);
+}
+.t_tochki_1 p{
+    color: rgba(0, 0, 0, 0);
+}
+.t_tochki p{
+    color: rgba(0, 0, 0, 0);
+}
+.h_content{
+    margin-left:  100px; ;
+    padding: 10px 20px 10px 20px;
+    border: solid 1px black;
+    width: 300px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+.h_content2{
+    font-size: 45px;
+    /* background-color: #DD4053; */
+    width: 725px; 
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.h_content_cnopka{
+    color: rgba(245, 245, 245, 0.568);
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 60px 30px 60px;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.h_content_cnopka:hover{
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.box_bar_icon_search{
+    height: 43px;
+}
+.box_hf_cnopka{
+    display: flex;
+    margin-top: 10px;
+}
+.chasti_hf{
+    /* border-right: 1px black solid; */
+    width: 740px;
+    /* background-color: darkblue; */
+    margin-left: -1px;
+}
+.box_text_hf_big{
+    margin-left: 70px;
+    width: 624px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.box_text_hf_small{
+    margin-left: 70px;
+    margin-top: 10px;
+    color: #a59d9d;
+}
+.hf_cnopka_1{
+    padding: 10px 20px 10px 20px;
+    border: 1px  solid  #969494;
+    color: #969494;
+    margin-left: 80px;
+}
+.hf_cnopka_2{
+    padding: 10px 20px 10px 20px;
+    border: 1px  solid  #8e8c8c;
+    color: #969696;
+    margin-left: -200px;
+}
+.hf_cnopka_1:hover{
+    background-color: #919090;
+    color: white;
+}
+.hf_cnopka_2:hover{
+    background-color: #919090;
+    color: white;
+}
+.chasti_hf2{
+    margin-left: 400px;
+    margin-top: -180px;
+}
+
+.charting{
+    margin-top: 1px;
+    /* background-color: black; */
+    width: 400px;
+    display: flex;
+}
+.text_hf{
+    margin-top: 20px;
+}
+
+.icon_hf{
+    font-size: 20px;
+    border: 1.2px dashed #969696;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+                                                                                            /* MAIN */
+
+.main{
+    width: 1440px;
+}
+.bh_container{
+    display: flex;
+    width: 70%;
+}
+.box_bh_text{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+.box_bh_strelka{
+    border-radius: 100%;
+    border-bottom:  rgba(0, 0, 0, 0.500) 2px solid;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.500);
+}
+.box_bh_strelka:hover{
+    border: rgba(0, 0, 0, 0.600) 2px solid;
+    color: rgba(0, 0, 0, 0.600);
+    transition: 0.1s;
+}
+.box_bh_line{
+    width: 200px;
+    margin-top: 40px;
+}
+.box_bh_cnopka{
+    width: 140px;
+    height: 45px;
+    border: #969696 1px solid;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.box_bh_cnopka:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+    transition: 0.3s;
+    color: blanchedalmond;
+}
+.box_bh_cnopka p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.box_best_hotel_2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.box_bh_capture_1{
+width: 460px;
+height: 450px;
+background: url(./img/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd\ 1.png);
+}
+.box_bh_capture_2{
+width: 460px;
+height: 450px;
+margin-left: 10px;
+margin-right: 10px;
+background:url(./img/276398231\ 2.png);  
+}
+.box_bh_capture_3{
+width: 460px;
+height: 450px;
+background:url(./img/c41c4172\ 1.png);
+}
+.bh_capture_text{
+    margin-top: 5px;
+    background-color: #00000059;
+    width: 195px;
+    height: 30px;
+    margin-left: 1px;
+    color: blanchedalmond;
+}
+.bh_capture_stars{
+    color: gold;
+    margin: 5.25px;
+    margin-top: 195px;
+    text-align: center;
+}
+.bh_capture_glavnue{
+    text-align: center;
+    font-size: 30px;
+    color: rgba(247, 252, 247, 0.808);
+}
+.box_ph_text{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.ph_container{
+    display: flex;
+    margin-top:30px ;
+}
+.box_ph_line{
+    width: 70%;
+    width: 700px;
+    margin-top: 30px;
+}
+.box_ph_cnopka{
+    width: 140px;
+    height: 45px;
+    border: #969696 1px solid;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.box_ph_cnopka p{
+    margin-top: 10px;
+}
+.box_ph_cnopka:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+    transition: 0.3s;
+    color: blanchedalmond;
+}
+.ph_container{
+    width: 70%;
+}
+.ph_container_1{
+    display: flex;
+    /* background-color: blue; */
+    width: 100%;
+}
+.box_card{
+    width: 1041px;
+    height: 480px;
+    display: flex;
+    margin-right:190px;
+}
+.ph_card_1{
+    width: 327px;
+    height: 480px;
+    background: #F8F8F8;
+}
+.ph_card_2{
+    width: 327px;
+    height: 480px;
+    background: #F8F8F8;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ph_card_3{
+    width: 327px;
+    height: 480px;
+    background: rgb(255, 255, 255);
+    margin-right: 35px;
+    background: #F8F8F8;
+}
+.ph_card_img_1{
+    height: 290px;
+    width: 327px;
+    background: url(./img/mandarina\ 2.png) no-repeat; 
+}
+.ph_card_img_2{
+    height: 290px;
+    width: 327px;
+    background: url(./img/hhh.png) no-repeat; 
+}
+.ph_card_img_3{
+    height: 290px;
+    width: 327px;
+    background: url(./img/qsqsw.png) no-repeat; 
+}
+.ph_card_img_text{
+    color: #FFFFFF;
+    width: 130px;
+    height: 30px;
+    margin-left: 1px;
+    font-size: 14px;
+    background: #00000059;
+}
+.sagalovok_ph{
+    font-size: 20px;
+    margin-top: -32px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.opisanie_ph{
+    font-size: 15px;
+    margin-top: 30px;
+    color:rgba(0, 0, 0, 0.537) ;
+}
+.box_ten{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%);
+    width: 100%;
+    height: 100%;
+    margin-top: -5px;
+}
+.box_ph_strelka{
+    border-radius: 100%;
+    border-bottom:  rgba(0, 0, 0, 0.500) 2px solid;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.500);
+    margin-top: 200px;
+}
+.box_ph_strelka:hover{
+    border: rgba(0, 0, 0, 0.600) 2px solid;
+    color: rgba(0, 0, 0, 0.600);
+    transition: 0.1s;
+}
+.zena_ph{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.zena_ph_ss1{
+    display: flex;
+}
+.ph_ss1{
+    color: #DD4053;
+}
+.ph_ss2{
+    color: #DD4053;
+    font-size: 30px;
+    margin-left: -20px;
+}
+.zena_ph_ss2{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.442);
+}
+.bilet{
+    width: 1042px;
+    display: flex;
+    height: 140px;
+    border-top: 6px solid #6a6a6a;
+    margin-top: 20px;
+}
+.bilet_icon{
+    display: flex;
+}
+.bilet_header_icons{
+    display: flex;
+    margin-left: 32px;
+}
+.bilet_h_icon{
+    color: #969696;
+}
+.bilet_h_text{
+    margin-left:5px;
+    color: #969696;
+    font-size: 14px;
+}
+.bilet_pola{
+    display: flex;
+    padding-right:48px;
+    border-right:1px #22222266 solid ;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.bilet_pole{
+    display: flex;
+    border: 1px solid #2222224f;
+
+    height: 50px;
+    width: 825px;
+
+}
+.bilet_text_pole{
+    display: flex;
+    color: #22222266;
+
+}
+.bilet_icon_pole{
+    font-size: 10px;
+    margin-top: 7px;
+    margin-left:10px ;
+}
+.bilet_ot_do{
+    margin-left: 25px;
+}
+.bilet_text_pole_ot{
+    color: black;
+    margin-left: 5px;
+}
+.bilet_cnopka{
+    color: #F8F8F8;
+    background: #DD4053;
+    width: 45px;
+    height: 20px;
+    margin-top: 20px;
+    padding: 15px 40px 15px 40px;
+}
+.bilet_cnopka:hover{
+    border: 2px solid rgba(0, 0, 0, 0.658);
+    transition: 0.4s;
+}
+.nowosti_card_1{
+    margin-right: 40px;
+    margin-left: -10px;
+    background-color: aliceblue;    
+}
+.nowosti_card_2{
+    margin-right: 10px;
+    background-color: aliceblue;
+}
+.nowosti_card_3{
+    margin-right: 10px;
+    background-color: aliceblue;
+}
+.nowosti_card_4{
+    background-color: aliceblue;    
+}
+.nowosti{
+    display: flex;
+    width: 60%;
+    margin-right: 190px;
+    margin-top: 20px;
+}
+.in_card_img_1{
+    background: url(./img/qsqsw.png);
+    width: 258px;   
+    height: 188px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.in_card_img_3{
+    background: url(./img/montenegro-hero\ 2.png);
+    width: 258px;   
+    height: 188px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.in_card_img_2{
+    background: url(./img/mandarina\ 2.png);
+    width: 258px;   
+    height: 188px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.in_card_img_4{
+    background: url(./img/1615470437_162\ 1.png);
+    width: 258px;   
+    height: 188px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.card_news{
+    display: flex;
+}
+.box_n_strelka{
+    border-radius: 100%;
+    border-bottom:  rgba(0, 0, 0, 0.500) 2px solid;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.500);
+    margin-top: 100px;
+}
+.box_n_strelka:hover{
+    border: rgba(0, 0, 0, 0.600) 2px solid;
+    color: rgba(0, 0, 0, 0.600);
+    transition: 0.1s;
+}
+.Podrobnee{
+    margin-top: 20px;
+}
+.Podrobnee a{
+    color: black;
+}
+.Podrobnee a:hover{
+    color: #DD4053;
+    transition: 0.3s;
+}
+.samolet{
+    width: 200px;
+    height: 200px;
+    margin-left: 900px;
+    margin-bottom: 160px;
+    position: absolute;
+    top: 2550px;
+}
+.blog_slaider{
+    display: flex;
+}
+.blog{
+    margin-top: 200px;
+}
+.box_blog_strelka{
+    border-radius: 100%;
+    border-bottom:  rgba(0, 0, 0, 0.500) 2px solid;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.500);
+    margin-top: 0px;
+}
+.box_blog_strelka:hover{
+    border: rgba(0, 0, 0, 0.600) 2px solid;
+    color: rgba(0, 0, 0, 0.600);
+    transition: 0.1s;
+}
+.strelki{
+    margin-top: 80px;
+}
+.Podrobnee_blog{
+    display: flex;
+    margin-top: 20px;
+}
+.Podrobnee_blog a{
+    color: black;
+}
+.Podrobnee_blog a:hover{
+    color: #DD4053;
+}
+.Podrobnee_blog i{
+    font-size: 20px;
+}
+.Podrobnee_blog i:hover{
+    color: #DD4053;
+}
+.blog_card_img_1{
+    background: url(./img/Strani_Sri-Lanka_5-min\ 1.png);
+    width: 258px;   
+    height: 188px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.blog_card_img_2{
+    background: url(./img/завантаження\ 1.png);
+    width: 258px;   
+    height: 188px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.blog_card_img_3{
+    background: url(./img/1581002914_lagomaggiore2\ 1.png);
+    width: 258px;   
+    height: 188px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.blog_card_img_4{
+    background: url(./img/104276fb11cd5d5a5a2b9ed233bde285\ 1.png); 
+    width: 258px;   
+    height: 188px;
+    margin-bottom: 30px;
+    background-size: cover;
+}
+.blog_card{
+    display: flex;
+    width: 60%;
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-left: -100px;
+}
+.register{
+    height: 255px;
+    width: 1440px;
+    background: url(./img/Rectangle\ 264.png);
+    margin-top: 30px;
+}
+.verxniy_text{
+    display: flex;
+    padding-top: 60px;
+}
+.v_b_text_1{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+.v_b_text_2{
+    font-size: 16px;
+    width: 363px;
+    height: 52px;
+    color: #FFFFFF;
+}
+.blanka{
+    display: flex;
+}
+.email{
+    padding: 15px 344px 15px 20px;
+    background: #91909057;
+    margin-left: 130px;
+}
+.no_tepict{
+    display: flex;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.tepict{
+    display: flex;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.blanka_cnopka{
+    padding: 15px 72px 15px 72px;
+    color: #DD4053;
+    background: #EFF3F6;
+}
+.blanka_cnopka:hover{
+    background: #eff3f68b;
+    transition: 0.5s    ;
+}
+.block_obazn{
+    height: 158px;
+    width: 505px;
+    background: #f8fbff;
+    margin-top: 20px;
+    display: flex;
+}
+.poch_nas{
+    display: flex;
+    background: url(./img/Frame.png);
+}
+.block_obazn_1{
+    height: 158px;
+    width: 505px;
+    background: #ffffff;
+    margin-top: 20px;
+    border-left: 4px #DD4053 solid;
+    display: flex;
+}
+.block_obazn p{
+    width: 400px;
+    margin-left: 1px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+.block_obazn_1 p{
+    width: 400px;
+    margin-left: 1px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+.block_obazn_1 i{
+    padding: 15px;
+    background-color: #DD4053;
+    color: #EFF3F6;
+    font-size: 30px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius:10px;
+    border: 1px black solid;
+}
+.block_obazn i{
+    padding: 15px;
+    background-color: #fbfbfb;
+    color: #1b1b1b;
+    font-size: 30px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius:10px;
+    border: 1px black solid;
+}
+.poch_nas_text{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+.vigoda{
+    height: 484px;
+    width: 1440px;
+    background: url(./img/Rovinj-15\ 1.png) no-repeat;
+    background-size: cover;
+}
+.stiker{
+    background: url(./img/unnamed1\ 2.png);
+    height: 137px;
+    width: 156px;
+    margin-left: 1000px;
+}
+.vigoda .ddd{
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F8F8F8;
+    margin-left: 20px;
+    
+}
+.vigoda .aaa{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #eff3f690;
+    margin-left: 20px;
+}
+.cnopka_vigoda{
+    padding: 20px 50px 20px 50px;
+    color: #000000a5;
+    background-color: #f8fbff;
+    margin-left: 100px;
+    width: 160px;
+    margin-top: 50px;
+    height: 20px;  
+    font-size: 20px;
+}
+.cnopka_vigoda:hover{
+    color: #FFFFFF;
+    background-color: #DD4053;
+    transition: 0.5s;
+}
+.flags{
+    position: relative;
+    width: 1440px;
+    height: 700px;
+}
+.flags_text_top1{
+    width: 715px;
+    height: 106px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.flags_text_top1 p{
+    font-family: Mistral;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 42px;
+    color: #DD4053;
+}
+.flags_text_top1 h6{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    color: #232323;
+}
+.flags_text_top2 p{
+    Width:234px;
+    Height: 49px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #DD4053;
+    margin-left: 1003px;
+}
+.flags_div{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+}
+.flag1{
+    background: #F8F8F8;
+    width: 238px;
+    height: 185px;
+}
+.flag2{
+    background: #F8F8F8;
+    width: 238px;
+    height: 185px;
+}
+.flag3{
+    background: #F8F8F8;
+    width: 238px;
+    height: 185px;
+}
+.flag4{
+    background: #F8F8F8;
+    width: 238px;
+    height: 185px;
+}
+.flag1 p{
+    width: 118px;
+    height: 55px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center;
+    color: #232323;
+    margin-left: 95px;
+    margin-top: 44px;
+}
+.flag2 p{
+    width: 118px;
+    height: 55px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center;
+    color: #232323;
+    margin-left: 65px;
+    margin-top: 44px;
+}
+.flag3 p{
+    width: 118px;
+    height: 55px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center;
+    color: #232323;
+    margin-left: 90px;
+    margin-top: 44px;
+}
+.flag4 p{
+    width: 118px;
+    height: 55px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center;
+    color: #232323;
+    margin-left: 120px;
+    margin-top: 44px;
+}
+.flag_knopka a{
+    width: 77px;
+    height: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969696;
+    padding: 8px 55px;
+    border: 1px solid #969696;
+    margin-left: 25px;
+    border-radius: 2px;
+}
+.flag_knopka a:hover{
+    text-decoration: none;
+    background-color: #969696;
+    color: white;
+}
+.flag1 img{
+    position: absolute;
+    top: -43px;
+    left: 20px;
+}
+.flag2 img{
+    position: absolute;
+    top: -43px;
+    left: 290px;
+}
+.flag3 img{
+    position: absolute;
+    top: -43px;
+    left: 560px;
+}
+.flag4 img{
+    position: absolute;
+    top: -43px;
+    left: 830px;
+}
+.flags_text_bottom1{
+    width: 430px;
+    height: 84px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #252525;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.flags_text_bottom1 a{
+    color: #DD4053;
+    text-decoration: none;
+    border-bottom: 1px solid #DD4053;
+}
+.flags_text_bottom1 a:hover{
+    text-decoration:  none;
+    color: #DD4053;
+}
+.flags_text_bottom2{
+    width: 510px;
+    height: 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #252525;
+    padding: 15px 17px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    margin-left: 736px;
+    margin-top: -80px;
+}
+.flags_text_bottom2 span{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.flag_img1{
+    position: absolute;
+    top: 180px;
+}
+.flag_img2{
+    position: absolute;
+    left: 1100px;
+}
+.servis{
+    background:#fffefe;
+
+}
+.verh_servis{
+    display: flex;
+    background: linear-gradient(180deg, rgba(248, 248, 248, 0) 0%, #e7e7e7 100% );
+
+
+}
+.verh_text .p{
+    height: 75px;
+    width: 644px;
+    font-family: Montserrat;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left; 
+    margin-bottom: 10px;   
+    
+}
+.text_up{
+    display: flex;
+}
+.text_left{
+    height: 140px;
+    width: 304px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: #656565;
+  
+
+}
+.text_right{
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 168px;
+    width: 270px;
+    margin-left: 10px;
+    color: #656565;
+
+        
+}
+.img_solvenia{
+    background: url(./img/Mask\ Group\ \(1\).png) no-repeat;
+    height: 358px;
+    width: 514px;
+}
+.img_absolute{
+    background: url(./img/Group\ 175.png);
+    height: 401px;
+    width: 327px;
+    left: 800.23828125px;
+    top: 5400.21875px;
+    position: absolute;
+
+}
+.verh_nis{
+    height: 60px;
+    width: 447px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 50px;
+}
+.nis_servis{
+    background: url(./img/kkkkkkkkkkkkkkkkkkkkkkkkkk.png);
+    height: 417px;
+}
+.nomer{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 28px;
+    width: 22px;
+    left: 219px;
+    top: 6781px;
+    border-radius: nullpx;
+    margin-left: 10px;  
+    color: #1b1b1b47;   
+}
+.text{
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.chasti{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.068);
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.chasti:hover{
+    border-bottom: 5px solid #DD4053;
+    height: 50px;
+
+}
+.content_nis{
+    display: flex;
+}
+.up_zivry{
+    display: flex;
+}
+.up_zivry_img{
+    background: url(./img/ddddddddddddddddddddddddddddddddddyrka.png);
+    height: 322px;
+    width: 683px;
+    margin-top: 10px;
+    
+}
+.big{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 208px;
+    width: 241px;
+    left: 200px;
+    top: 7765px;
+    border-radius: nullpx;
+        
+}
+.small{
+    height: 90px;
+    width: 241px;
+    left: 200px;
+    top: 8005px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+        
+}
+.chast_zivry_c{
+    display: flex;
+    margin-top: 10px;
+}
+.cc_zivry_c{
+    width: 304px;
+}
+.zivry{
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.zivry_txt{
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+
+
+
+
+
+
+                                                                                                /* <FOOTER> */
+
+.register_footer{
+    height: 255px;
+    width: 1440px;
+    background: #ebebeb;
+    margin-top: px;
+}
+.verxniy_text_footer{
+    display: flex;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+.v_b_text_1_footer{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+.v_b_text_2_footer{
+    font-size: 16px;
+    width: 363px;
+    height: 52px;
+    color: #000000;
+}
+.blanka_footer{
+    display: flex;
+}
+.email_footer{
+    padding: 15px 344px 15px 20px;
+    background: #91909057;
+    margin-left: 130px;
+}
+.no_tepict_footer{
+    display: flex;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.tepict_footer{
+    display: flex;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #DD4053      ;
+}
+.blanka_cnopka_footer{
+    padding: 15px 72px 15px 72px;
+    color: #EFF3F6;
+    background:  #DD4053;
+}
+.blanka_cnopka_footer:hover{
+    background: #2f9d0bbb;
+    transition: 0.5s    ;
+}   
+.end_footer{
+    background: url(./img/SloveniaHeader\ 3.png);
+    width: 1440px;
+    height: 370px;
+}  
+.container_footer .pk{
+    color: #91909000;
+    font-size: 1px;
+}
+.container_footer{
+    background: linear-gradient(180deg, #ECECEC 0%, rgba(232, 232, 232, 0) 51.87%, #FFFFFF 100%);
+    width: 100%;
+    height: 100%;   
+}   
+
+.end_footer_header{
+    display: flex;
+    margin-top: 150px;
+    border-bottom:1px solid black ;
+    width: 1036px;
+    margin: 150px auto;
+}   
+.end_footer_footer{
+    width: 1440px;
+
+}                                                                                 
